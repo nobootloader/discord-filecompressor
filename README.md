@@ -8,7 +8,9 @@ There was necessarily no need to implement this kind of architecture, nor was it
 # Technologies
 **Backend:** Go
 
-**Server:** Docker, AWS S3 (SDK, using R2 bucket)
+**Observability:** Open Telemetry, Jaeger
+
+**Server:** Docker, AWS S3 (SDK, using R2 bucket), Kubernetes, Kafka 
 
 **Frontend:** TypeScript, Vue.js
 
