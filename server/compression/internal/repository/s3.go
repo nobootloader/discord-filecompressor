@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/otel"
 )
 
-// Presigner encapsulates the Amazon Simple Storage Service (Amazon S3) presign actions
+// S3 Presigner encapsulates the Amazon Simple Storage Service (Amazon S3) presign actions
 // used in the examples.
 // It contains PresignClient, a client that is used to presign requests to Amazon S3.
 // Presigned requests contain temporary credentials and can be made from any HTTP client.
